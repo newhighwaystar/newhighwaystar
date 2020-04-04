@@ -3,6 +3,8 @@ $(document).ready(function(){
   $('.header').height($(window).height());
   
    $("a").click(function(event) {
+	       $('.navbar-collapse').collapse('hide');
+
     var href = $(event.target).attr('href').substring(1); //this will give you the href value
 	
 	if(href=="about")

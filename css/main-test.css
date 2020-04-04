@@ -99,3 +99,9 @@ margin-top:5px;
       width: 100%;
       height: 100%;
   }
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 2.0rem; // you can also use px here...
+    }
+}
